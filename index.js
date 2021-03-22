@@ -4,7 +4,7 @@ const assert = require('nanocustomassert')
 
 const pump = require('pump')
 
-const log = require('debug')('discovery-swarm-webrtc')
+const log = require('debug')('dweb-discovery-swarm-webrtc')
 const MMSTSignalClient = require('./lib/mmst-signal-client')
 const { toHex, callbackPromise, resolveCallback } = require('./lib/utils')
 const errors = require('./lib/errors')

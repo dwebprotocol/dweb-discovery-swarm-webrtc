@@ -1,7 +1,7 @@
 {
   "name": "dweb-discovery-swarm-webrtc",
   "version": "1.0.0",
-  "description": "Signal server for discovery swarm web-rtc",
+  "description": "dWeb Discovery Swarm for WebRTC",
   "main": "index.js",
   "files": [
     "lib",
@@ -10,7 +10,7 @@
     "server.js"
   ],
   "bin": {
-    "discovery-swarm-webrtc": "bin/index.js"
+    "dweb-discovery-swarm-webrtc": "bin/index.js"
   },
   "scripts": {
     "test": "airtap tests/connectivity.test.js --loopback 127.0.0.1",
@@ -25,20 +25,20 @@
     "url": "git+https://github.com/dwebprotocol/dweb-discovery-swarm-webrtc.git"
   },
   "keywords": [
-    "node", 
+    "node",
     "webrtc",
-    "signal", 
+    "dweb",
     "swarm"
   ],
   "author": {
-    "name": "GEUT",
-    "email": "contact@geutstudio.com"
+    "name": "DWEB",
+    "email": "peepslabs@gmail.com"
   },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dwebprotocol/dweb-discovery-swarm-webrtc/issues"
   },
-  "homepage": "https://github.com/dwebprotocol/dweb-discovery-swarm-webrtc#readme",
+  "homepage": "https://dwebx.org",
   "dependencies": {
     "debug": "^4.1.1",
     "end-of-stream": "^1.4.4",
