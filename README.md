@@ -1,9 +1,7 @@
-# discovery-swarm-webrtc
+# dweb-discovery-swarm-webrtc
 
-[![Build Status](https://travis-ci.com/geut/discovery-swarm-webrtc.svg?branch=master)](https://travis-ci.com/geut/discovery-swarm-webrtc)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-> discovery-swarm for webrtc
+> dweb-discovery-swarm for webrtc
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/819446/64871056-d6a2d480-d61a-11e9-9d93-b79a5f0e822a.gif" alt="force-graph">
@@ -21,7 +19,7 @@ It has a few differences to discovery-swarm:
 ## Install
 
 ```
-$ npm install @geut/discovery-swarm-webrtc
+$ npm install dweb-discovery-swarm-webrtc
 ```
 
 ## Usage
@@ -31,23 +29,23 @@ $ npm install @geut/discovery-swarm-webrtc
 You can run your own signal server by running:
 
 ```
-$ discovery-swarm-webrtc --port=4000
+$ dweb-discovery-swarm-webrtc --port=4000
 ```
 
 #### Public Servers
 
-- wss://geut-webrtc-signal-v3.glitch.me
-- wss://geut-webrtc-signal-v3.herokuapp.com
+- wss://signal-v3.dwebx.net
+- wss://signal-v3.dsocial.network
 
 #### Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/geut/discovery-swarm-webrtc/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dwebprotocol/dweb-discovery-swarm-webrtc/tree/master)
 
 ### Client
 
 ```javascript
 const crypto = require('crypto')
-const swarm = require('@geut/discovery-swarm-webrtc')
+const swarm = require('dweb-discovery-swarm-webrtc')
 
 const sw = swarm({
   bootstrap: ['ws://localhost:4000']
@@ -143,17 +141,12 @@ Emitted when the candidates peer for a specific channel was updated. `candidates
 
 ## <a name="issues"></a> Issues
 
-:bug: If you found an issue we encourage you to report it on [github](https://github.com/geut/discovery-swarm-webrtc/issues). Please specify your OS and the actions to reproduce it.
+:bug: If you found an issue we encourage you to report it on [github](https://github.com/dwebprotocol/dweb-discovery-swarm-webrtc/issues). Please specify your OS and the actions to reproduce it.
 
 ## <a name="contribute"></a> Contributing
 
-:busts_in_silhouette: Ideas and contributions to the project are welcome. You must follow this [guideline](https://github.com/geut/discovery-swarm-webrtc/blob/master/CONTRIBUTING.md).
-
-## Sponsored By
-[
-<img src="https://dxos.org/images/logo/dxos-logo-type-dark.png" alt="DXOS" width="350px" />
-](https://dxos.org/)
+:busts_in_silhouette: Ideas and contributions to the project are welcome. You must follow this [guideline](https://github.com/dwebprotocol/dweb-discovery-swarm-webrtc/blob/master/CONTRIBUTING.md).
 
 ## License
 
-MIT © A [**GEUT**](http://geutstudio.com/) project
+MIT © A [**DWEB**](http://dwebx.org/) project
