@@ -1,7 +1,7 @@
 {
-  "name": "@geut/discovery-swarm-webrtc",
-  "version": "4.2.2",
-  "description": "discovery-swarm for WebRTC.",
+  "name": "dweb-discovery-swarm-webrtc",
+  "version": "1.0.0",
+  "description": "Signal server for discovery swarm web-rtc",
   "main": "index.js",
   "files": [
     "lib",
@@ -22,12 +22,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geut/discovery-swarm-webrtc.git"
+    "url": "git+https://github.com/dwebprotocol/dweb-discovery-swarm-webrtc.git"
   },
   "keywords": [
-    "swarm",
+    "node", 
     "webrtc",
-    "geut"
+    "signal", 
+    "swarm"
   ],
   "author": {
     "name": "GEUT",
@@ -35,9 +36,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/geut/discovery-swarm-webrtc/issues"
+    "url": "https://github.com/dwebprotocol/dweb-discovery-swarm-webrtc/issues"
   },
-  "homepage": "https://github.com/geut/discovery-swarm-webrtc#readme",
+  "homepage": "https://github.com/dwebprotocol/dweb-discovery-swarm-webrtc#readme",
   "dependencies": {
     "debug": "^4.1.1",
     "end-of-stream": "^1.4.4",
